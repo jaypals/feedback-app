@@ -5,8 +5,7 @@ import { useContext } from "react";
 import FeedbackContext from "../../context/FeedbackContext";
 
 function FeedbackItem({ item }) {
-	const { deleteFeedback, editFeedback, feedbackEdit } =
-		useContext(FeedbackContext);
+	const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
 
 	return (
 		<Card>
